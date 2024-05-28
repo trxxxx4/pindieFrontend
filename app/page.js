@@ -13,7 +13,7 @@ export default function Home() {
 
   const popularGames = useGetDataByCategory(endpoints.games, "popular");
   const newGames = useGetDataByCategory(endpoints.games, "new");
-
+console.log(popularGames)
 
   return (
     <main className="main">
