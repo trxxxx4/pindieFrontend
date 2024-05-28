@@ -2,7 +2,7 @@
 
 
 
-export const BASE_URL = 'https://liim38group.nomorepartiesco.ru/';
+export const BASE_URL = 'https://liim38group.nomorepartiesco.ru';
 
 export const endpoints = {
   games: `${BASE_URL}/games`,
